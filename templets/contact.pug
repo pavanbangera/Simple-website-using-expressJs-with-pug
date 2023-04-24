@@ -1,0 +1,14 @@
+extends base.pug
+block style 
+    style 
+        include ../static/styleContact.css
+
+block content 
+    section#contactSec 
+        div: h1 Contact Us 
+        form#contactForm(action="") 
+            input(type="text", name="name", placeholder="Enter your name" )
+            input(type="email", name="email"  placeholder="Enter your email" )
+            input(type="tel", name="phone"  placeholder="Enter your phone number" )
+            textarea(name="description", cols="30", rows="10" ) 
+            button(type="submit") Submit

@@ -1,0 +1,26 @@
+doctype html
+html(lang='en')
+  head
+    meta(content='width=device-width' initial-scale='1' shrink-to-fit='no' name='viewport')
+    title PDA
+    style 
+        include ../static/style.css
+    block style
+  body
+    nav.nav-bar#nav-bar
+      div#nav-logo
+           img(src="../static/PB.png", alt="")
+      ul 
+        li: a(href="/") Home
+        li: a(href="/") About
+        li: a(href="/") Services
+        li: a(href="/contact") Contact Us
+      div#humberger 
+           img(src="../static/menu.png", alt="")
+    block content
+    
+    footer#foot 
+        | @Copyright 2023-24 Pavan Banger All rights Reserved
+   
+    script
+          include ../static/action.js

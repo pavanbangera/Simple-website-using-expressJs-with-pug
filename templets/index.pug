@@ -1,0 +1,43 @@
+extends base.pug
+block style 
+    style 
+        include ../static/styleHome.css
+        
+block content 
+        section#introSec 
+            div: h1 Welcome to Pavi's Dance Academy
+            div: h2 AnyBody Can Dance
+
+        section#missionSec 
+            div: h1 Our Mission
+            div#cards 
+                div#card
+                    div#card-title: h1 Perfection
+                    div#card-content
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, consequuntur labore suscipit tempora et mollitia debitis, qui aliquid vitae maiores placeat sunt esse accusantium, laborum enim iure distinctio saepe ipsa?
+                div#card
+                    div#card-title: h1 Ability
+                    div#card-content
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, consequuntur labore suscipit tempora et mollitia debitis, qui aliquid vitae maiores placeat sunt esse accusantium, laborum enim iure distinctio saepe ipsa?
+                div#card
+                    div#card-title: h1 Flexibility
+                    div#card-content
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, consequuntur labore suscipit tempora et mollitia debitis, qui aliquid vitae maiores placeat sunt esse accusantium, laborum enim iure distinctio saepe ipsa?
+                div#card
+                    div#card-title: h1 Experiance
+                    div#card-content
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, consequuntur labore suscipit tempora et mollitia debitis, qui aliquid vitae maiores placeat sunt esse accusantium, laborum enim iure distinctio saepe ipsa?
+
+        section#sponsersSec 
+            div: h1 Our Sponsers 
+            div#logo-container
+                div.logo        
+                     img(src="/static/facebook.png", alt="")
+                div.logo        
+                    img(src="/static/github.png", alt="")
+                div.logo        
+                    img(src="/static/hp.png", alt="")
+                div.logo        
+                    img(src="/static/nodejs.png", alt="")
+        
+        

@@ -1,0 +1,42 @@
+#contactSec{
+    width: 100%;
+    min-height: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+    padding: 20px 50px;
+}
+#contactSec h1{
+    font-family: 'Caveat', cursive;
+    font-size: 2.5rem;
+}
+#contactForm input,textarea,button{
+    display: block;
+    margin: 12px auto;
+    width: 500px;
+    text-align: center;
+    padding: 3px 5px;
+    border-radius: 6px;
+    outline: none;
+    border: 2px solid black;
+
+}
+#contactForm input{
+    height: 40px;
+
+}
+#contactForm button{
+    height: 40px;
+    font-size: 1.2rem;
+    font-family: 'Bruno Ace SC';
+    background-color: rgba(4, 221, 4, 0.795);
+    cursor: pointer;
+    transition: all 2s;
+
+}
+#contactForm button:hover{
+    background-color: rgba(4, 189, 4, 0.897);
+
+}
